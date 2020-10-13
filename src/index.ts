@@ -104,13 +104,13 @@ export class ProgressManager {
     return this
   }
 
-  public increment(n?: number) {
-    this.value += n || 0
+  public increment(n: number=1) {
+    this.value += n
     return this
   }
 
-  public decrement(n?: number) {
-    this.value -= n || 0
+  public decrement(n: number=1) {
+    this.value -= n
     return this
   }
 
